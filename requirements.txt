@@ -1,0 +1,16 @@
+tabulate
+pyti
+pytz
+requests
+python-telegram-bot
+python-dateutil
+websocket
+amqp
+celery
+numpy
+dateparser
+certifi
+six
+python_dateutil
+setuptools
+urllib3

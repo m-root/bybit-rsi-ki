@@ -1,0 +1,89 @@
+'''
+
+Long Entry
+RSI 10 Oversold RSI Crossing Up Above 31 on close of candle period (ie 1 hour, 4 hour etc.)
+1. Check if there is any open trade, if any do not close
+2. if price is below mid_KC enter in the next candle
+3. if price>mid_KC then place buy limit at mid_kc and update price
+
+Cancel order
+1. after 7 candles
+
+Stop Order
+stop_loss = Lowest_price in 48 candles - 15
+if stop_loss > Entry_price
+    stop_loss - 150
+
+Adjust_stop
+1. After profit target 2 has been hit
+
+Profit Targets
+Target 1
+70% If Candle Closing price Below Mid Keltner (Basis): Profit target is mid keltner line
+if greater than 10 point distance from entry to mid keltner (basis), If below 10 points
+then set take profit order at 10 pts.
+
+Target 2
+Profit Target 2: Recalculate P2 each new candle 20% of active order 20% Calculate
+Profit Target 2: (Upper Keltner - Mid Keltner Basis)/2 + Entry Price
+
+Target 3
+Profit Target 3: 10% of active order 10%
+When Lower Keltner line is higher than break even stop price move stop every
+period (1 hour) until stopped out. Stop can only move up not down.
+
+Break Even
+***After Profit Target 2 hit move stop price to breakeven**
+
+
+
+
+
+Short Entry
+RSI 10 Overbought RSI Crossing Down Below 69 on close of candle period (ie 1 hour, 4 hour etc.)
+1. Check if price is above mid keltner set entry at close price of candle.
+2. if price is below mid_KC enter in the next candle
+3. if price>mid_KC then place buy limit at mid_kc and update price
+
+Cancel order
+1. after 7 candles
+
+Stop Order
+stop_loss = Lowest_price in 48 candles - 15
+if stop_loss > Entry_price
+    stop_loss - 150
+
+
+
+
+
+
+
+
+
+
+
+
+
+Adjust_stop
+1. After profit target 2 has been hit
+
+Profit Targets
+Target 1
+70% If Candle Closing price Below Mid Keltner (Basis): Profit target is mid keltner
+line if greater than 10 point distance from
+entry to mid keltner (basis), If below 10 points then set take profit order at 10 pts.
+
+Target 2
+Profit Target 2: Recalculate P2 each new candle 20% of active order 20% Calculate
+Profit Target 2: (Upper Keltner - Mid Keltner Basis)/2 + Entry Price
+
+Target 3
+Profit Target 3: 10% of active order 10%
+When Lower Keltner line is higher than break even stop price move stop every
+period (1 hour) until stopped out. Stop can only move up not down.
+
+Break Even
+***After Profit Target 2 hit move stop price to breakeven**
+
+'''
